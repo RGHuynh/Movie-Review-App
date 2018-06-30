@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RGHuynh/Movie-Review-App#readme",
   "dependencies": {
-    "angular": "^1.7.2"
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2"
   }
 }
