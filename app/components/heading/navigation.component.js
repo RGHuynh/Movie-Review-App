@@ -1,6 +1,6 @@
 (function(){
   var config = {
-    templateUrl: '/app/components/navigation/navigation.component.html',
+    templateUrl: '/app/components/heading/navigation.component.html',
     controller: navigationCtrl
   };
 
