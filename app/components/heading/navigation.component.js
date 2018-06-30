@@ -4,10 +4,9 @@
     controller: navigationCtrl
   };
 
-  navigationCtrl.$inject = ['$scope'];
-
-  function navigationCtrl($scope){
-    $scope.hello = "hello world"
+  function navigationCtrl(){
+    var ctrl = this;
+    ctrl.hello = 'hello world'
   };
 
   angular
