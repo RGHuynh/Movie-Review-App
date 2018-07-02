@@ -8,6 +8,15 @@ html {
   height: 100%;
 }
 
+.button {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+a:focus, a:hover{
+  text-decoration: none;
+  color: red;
+}
 
 .masthead {
   display: table;
@@ -30,4 +39,58 @@ html {
     height: 100vh;
     padding: 0;
   }
+}
+
+.test{
+  position: relative;
+  padding: auto;
+}
+.jump-btn {
+  border: 4px solid transparent;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #2E112D;
+  position: relative;
+  animation: spin 2s infinite;
+}
+
+.jump-btn:after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: #C9283E;
+  display: inline-block;
+  position: absolute;
+  top: -11px;
+  left: -4px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.jump-btn:hover {
+  background-color: #540032;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.content-section {
+  padding: 150px 0;
+  border: 1px solid black;
+}
+
+.btn-default {
+  color: black;
+  background-color: #C9283E;
+}
+
+.btn {
+  outline: none !important;
 }
