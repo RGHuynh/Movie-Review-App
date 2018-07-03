@@ -83,7 +83,14 @@ a:focus, a:hover{
 
 .content-section {
   padding: 150px 0;
+  background-color: white;
+}
+
+.content-pic {
+  width: 100px;
+  height: 100px;
   border: 1px solid black;
+  margin: 20px auto;
 }
 
 .btn-default {
@@ -93,4 +100,26 @@ a:focus, a:hover{
 
 .btn {
   outline: none !important;
+}
+
+.popup-center {
+  position: absolute;
+  width: 100%;
+}
+
+.fade:not(.show) {
+  opacity: 1 !important;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-backdrop .fade .in {
+  opacity: 0.5 !important;
+}
+
+.modal-backdrop.fade {
+    opacity: 0.5 !important;
 }

@@ -1,1 +1,1 @@
-angular.module('movieApp', ['ngRoute']);
+angular.module('movieApp', ['ngRoute', 'ui.bootstrap']);

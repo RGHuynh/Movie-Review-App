@@ -4,9 +4,10 @@
     controller: searchCtrl
   }
 
-  function searchCtrl(){
+  function searchCtrl(searchService){
     var ctrl = this;
-    ctrl.searchInput = ''
+    ctrl.searchInput = '';
+    ctrl.open = searchService.open;
   }
 
   angular
